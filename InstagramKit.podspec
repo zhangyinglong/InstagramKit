@@ -1,30 +1,42 @@
+#
+# Be sure to run `pod lib lint InstagramKit.podspec' to ensure this is a
+# valid spec before submitting.
+#
+# Any lines starting with a # are optional, but their use is encouraged
+# To learn more about a Podspec see http://guides.cocoapods.org/syntax/podspec.html
+#
+
 Pod::Spec.new do |s|
-  s.name         = 'InstagramKit'
-  s.version      = '3.8'
-  s.summary      = 'Instagram iOS SDK.'
-  s.description  = <<-DESC
+  s.name             = 'InstagramKit'
+  s.version          = '0.1.0'
+  s.summary          = 'A short description of InstagramKit.'
 
-* An extensive blocks-based Objective C wrapper for the Instagram API.
-                   DESC
+# This description is used to generate tags and improve search results.
+#   * Think: What does it do? Why did you write it? What is the focus?
+#   * Try to keep it short, snappy and to the point.
+#   * Write the description between the DESC delimiters below.
+#   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.homepage     = 'https://github.com/shyambhat/InstagramKit'
-  s.license      = 'MIT'
-  s.author       = { "Shyam Bhat" => "shyambhat@me.com" }
-  s.platform     = :ios, '7.0'
-  s.source       = { :git => "https://github.com/shyambhat/InstagramKit.git", :tag => s.version }
-  s.source_files  = 'InstagramKit', 'InstagramKit/**/*.{h,m}'
-  s.exclude_files = 'InstagramKitDemo'
-  s.requires_arc = true
-  s.dependency 'AFNetworking', '~>3.0'
-  s.default_subspec = 'Exclude-UICKeyChainStore'
+  s.description      = <<-DESC
+TODO: Add long description of the pod here.
+                       DESC
 
-  s.subspec 'Exclude-UICKeyChainStore' do |exclude_uickeychainstore|
-  # default lean subspec for users who don't need UICKeyChainStore
-  end
+  s.homepage         = 'https://github.com/yinglong.zhang/InstagramKit'
+  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
+  s.license          = { :type => 'MIT', :file => 'LICENSE' }
+  s.author           = { 'yinglong.zhang' => 'yinglong.zhang@funplus.com' }
+  s.source           = { :git => 'https://github.com/yinglong.zhang/InstagramKit.git', :tag => s.version.to_s }
+  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.subspec 'UICKeyChainStore' do |uickeychainstore|
-    uickeychainstore.xcconfig	=
-        { 'OTHER_CFLAGS' => '$(inherited) -INSTAGRAMKIT_INCLUDE_UICKEYCHAINSTORE' }
-    uickeychainstore.dependency 'UICKeyChainStore', '~>2.0'
-  end
+  s.ios.deployment_target = '8.0'
+
+  s.source_files = 'InstagramKit/Classes/**/*'
+  
+  # s.resource_bundles = {
+  #   'InstagramKit' => ['InstagramKit/Assets/*.png']
+  # }
+
+  # s.public_header_files = 'Pod/Classes/**/*.h'
+  # s.frameworks = 'UIKit', 'MapKit'
+  s.dependency 'AFNetworking'
 end

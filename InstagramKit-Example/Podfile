@@ -1,2 +1,0 @@
-pod "InstagramKit", :path => '../'
-pod "InstagramKit/UICKeyChainStore", :path => '../'
