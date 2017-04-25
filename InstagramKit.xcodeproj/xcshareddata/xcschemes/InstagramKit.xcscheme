@@ -28,8 +28,8 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "8224664E1B4C2D8A00F8B5EA"
-               BuildableName = "libInstagramKit.a"
+               BlueprintIdentifier = "FC1EB7501EAF3E4D0024D229"
+               BuildableName = "InstagramKit.framework"
                BlueprintName = "InstagramKit"
                ReferencedContainer = "container:InstagramKit.xcodeproj">
             </BuildableReference>
@@ -46,8 +46,8 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "8224664E1B4C2D8A00F8B5EA"
-            BuildableName = "libInstagramKit.a"
+            BlueprintIdentifier = "FC1EB7501EAF3E4D0024D229"
+            BuildableName = "InstagramKit.framework"
             BlueprintName = "InstagramKit"
             ReferencedContainer = "container:InstagramKit.xcodeproj">
          </BuildableReference>
@@ -68,8 +68,8 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "8224664E1B4C2D8A00F8B5EA"
-            BuildableName = "libInstagramKit.a"
+            BlueprintIdentifier = "FC1EB7501EAF3E4D0024D229"
+            BuildableName = "InstagramKit.framework"
             BlueprintName = "InstagramKit"
             ReferencedContainer = "container:InstagramKit.xcodeproj">
          </BuildableReference>
@@ -90,8 +90,8 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "8224664E1B4C2D8A00F8B5EA"
-            BuildableName = "libInstagramKit.a"
+            BlueprintIdentifier = "FC1EB7501EAF3E4D0024D229"
+            BuildableName = "InstagramKit.framework"
             BlueprintName = "InstagramKit"
             ReferencedContainer = "container:InstagramKit.xcodeproj">
          </BuildableReference>
