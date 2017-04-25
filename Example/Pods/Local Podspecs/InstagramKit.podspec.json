@@ -1,0 +1,27 @@
+{
+  "name": "InstagramKit",
+  "version": "0.1.0",
+  "summary": "A short description of InstagramKit.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/yinglong.zhang/InstagramKit",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "zhangyinglong": "zyl04401@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/zhangyinglong/InstagramKit.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "InstagramKit/Classes/**/*",
+  "dependencies": {
+    "AFNetworking": [
+
+    ]
+  }
+}
